@@ -95,7 +95,13 @@ SSH into the control node and follow the steps below:
 - Update the configuration file to include the webservers and elk (Private IP)
 - Run the playbook, and navigate to Elk-VM to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it? The file is /etc/ansible/filebeat-playbook.yml and it should be located as directed in the path: /etc/ansible
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ /etc/ansible/hosts. To specify the machine, allow the webserver and elk to be added with the private IPs of the machines.
-- _Which URL do you navigate to in order to check that the ELK server is running? http://[your.ELK-VM.External.IP]:5601/app/kibana
+Which file is the playbook? Where do you copy it?
+- The file is /etc/ansible/filebeat-playbook.yml and it should be located as directed in the path: /etc/ansible
+
+Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
+
+- /etc/ansible/hosts. To specify the machine, allow the webserver and elk to be added with the private IPs of the machines.\
+
+Which URL do you navigate to in order to check that the ELK server is running?
+
+- http://[your.ELK-VM.External.IP]:5601/app/kibana
